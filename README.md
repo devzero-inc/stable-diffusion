@@ -5,13 +5,6 @@ This is an intuitive application leveraging the power of AI through Stability.ai
 
 ![Frontend](https://i.imgur.com/wlmNLAr.png)
 
-## Todo
-1. High level design
-1. Unit Tests
-1. Dockerizing database
-1. Seeding script
-1. Writing CI
-
 ## Features
 ### Text-to-Image Transformation:
 - Utilize cutting-edge AI to generate images from text prompts. Simply type in a description and let the AI bring your vision to life.
@@ -38,7 +31,12 @@ Node.js is an event-driven, non-blocking I/O model built on Chrome's V8 JavaScri
 
 MongoDB is a powerful, flexible, and scalable NoSQL database favored for its high performance, availability, and scalability. It uses a document-oriented data model and enables rapid development with its schema-less structure, making it a popular choice for modern web applications and big data solutions.
 
+## High Level Design
+
+![HLD_stable_diffusion](https://github.com/devzero-inc/stable-diffusion/assets/93814858/a32d0012-7754-4836-91d4-9f821eabe436)
+
 ## Working
+
 
 ### User Interaction
 **Frontend Interaction:** Users interact with the application through a React.js-based frontend, designed for a seamless and engaging user experience. By entering text prompts into the interface, users can effortlessly initiate the process of generating images via the Stable Diffusion AI. The platform also provides features for users to view their past image generations and explore sample creations for inspiration, all within a user-friendly and responsive environment.
