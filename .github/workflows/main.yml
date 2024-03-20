@@ -1,4 +1,4 @@
-name: Change Log CI
+name: Stable Diffusion CI
 
 on:
   push:
