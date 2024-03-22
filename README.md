@@ -1,4 +1,4 @@
-# Stable Diffusion
+# Stable Diffusion ![ workflow](https://github.com/devzero-inc/stable-diffusion/actions/workflows/main.yml/badge.svg)
 
 ## Overview
 This is an intuitive application leveraging the power of AI through Stability.ai's Stable Diffusion API to transform textual descriptions into compelling images. Our application is designed for creatives, developers, and anyone in between who is interested in exploring the boundaries of AI-generated art.
@@ -70,3 +70,18 @@ API_KEY=your_api_key_here
 - **Example Configuration:** For your reference, an example .env file configuration is provided in .env.example located in the root directory. This example illustrates how to properly format your .env file.
 
 By following these configuration steps, you'll enable the application to communicate with Stability.ai's Stable Diffusion API using your API key.
+
+## Installation
+
+### Prerequisites
+- Docker
+
+Run locally: 
+```bash
+git clone https://github.com/devzero-inc/stable-diffusion.git
+cd stable-diffusion
+docker compose up
+```
+App will be running on ```PORT:4173``` -> [http://localhost:4173/](http://localhost:4173/)
+
+Now just go to [http://localhost:4173/](http://localhost:4173/) and explore the application.
